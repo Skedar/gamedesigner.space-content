@@ -1,17 +1,17 @@
 import { defineConfig } from "tinacms";
 
 export default defineConfig({
-  branch: process.env.HEAD || "main",
+  branch: "main",
   clientId: process.env.PUBLIC_TINA_CLIENT_ID!,
   token: process.env.TINA_TOKEN!,
   build: {
     outputFolder: "admin",
-    publicFolder: "public",
+    publicFolder: ".",
   },
   media: {
     tina: {
-      mediaRoot: "src/assets",
-      publicFolder: "public",
+      mediaRoot: "media",
+      publicFolder: ".",
     },
   },
   schema: {
@@ -20,7 +20,7 @@ export default defineConfig({
         name: "post",
         label: "Posts",
         path: "content/blog",
-        format: "mdx",
+        format: "md",
         fields: [
           {
             type: "string",
