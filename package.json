@@ -1,0 +1,14 @@
+{
+    "name": "gamedesign.space-content",
+    "private": true,
+    "scripts": {
+      "dev": "tinacms dev",
+      "build": "tinacms build"
+    },
+    "dependencies": {
+      "tinacms": "^2.5.2"
+    },
+    "devDependencies": {
+      "@tinacms/cli": "^1.7.0"
+    }
+  }
