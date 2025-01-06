@@ -1,18 +1,18 @@
+// tina/config.ts
 import { defineConfig } from "tinacms";
-
-export default defineConfig({
+var config_default = defineConfig({
   branch: process.env.HEAD || "main",
-  clientId: process.env.PUBLIC_TINA_CLIENT_ID!,
-  token: process.env.TINA_TOKEN!,
+  clientId: process.env.PUBLIC_TINA_CLIENT_ID,
+  token: process.env.TINA_TOKEN,
   build: {
     outputFolder: "admin",
-    publicFolder: "public",
+    publicFolder: "public"
   },
   media: {
     tina: {
       mediaRoot: "assets",
-      publicFolder: "public",
-    },
+      publicFolder: "public"
+    }
   },
   schema: {
     collections: [
@@ -27,47 +27,50 @@ export default defineConfig({
             name: "title",
             label: "Title",
             required: true,
-            isTitle: true,
+            isTitle: true
           },
           {
             type: "string",
             name: "description",
             label: "Description",
-            required: true,
+            required: true
           },
           {
             type: "datetime",
             name: "pubDatetime",
             label: "Publication Date",
-            required: true,
+            required: true
           },
           {
             type: "string",
             name: "author",
             label: "Author",
-            required: true,
+            required: true
           },
           {
             type: "string",
             name: "tags",
             label: "Tags",
             list: true,
-            required: true,
+            required: true
           },
           {
             type: "rich-text",
             name: "body",
             label: "Body",
-            isBody: true,
-          },
-        ],
-      },
-    ],
+            isBody: true
+          }
+        ]
+      }
+    ]
   },
   search: {
     tina: {
       indexerToken: process.env.TINA_TOKEN,
       stopwordLanguages: ["por"]
-    },
-  },
+    }
+  }
 });
+export {
+  config_default as default
+};
