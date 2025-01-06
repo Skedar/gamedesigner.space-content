@@ -7,10 +7,16 @@
     "build": "npx tinacms build"
   },
   "dependencies": {
-    "tinacms": "^1.5.28"
+    "tinacms": "^1.5.28",
+    "@astrojs/check": "^0.3.4",
+    "@astrojs/rss": "^4.0.1",
+    "astro": "^4.1.1",
+    "typescript": "^5.3.3"
   },
   "devDependencies": {
     "@tinacms/cli": "^1.5.29",
-    "@types/node": "^20.10.6"
+    "@types/node": "^20.10.6",
+    "prettier": "^3.1.1",
+    "prettier-plugin-astro": "^0.12.3"
   }
 } 
