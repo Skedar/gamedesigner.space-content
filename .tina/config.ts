@@ -1,19 +1,23 @@
 import { defineConfig } from "tinacms";
 
+// Your hosting provider likely exposes this as an environment variable
+const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
+
 export default defineConfig({
-  branch: "main",
-  clientId: process.env.PUBLIC_TINA_CLIENT_ID!,
-  token: process.env.TINA_TOKEN!,
+  branch,
+  clientId: process.env.PUBLIC_TINA_CLIENT_ID!, // Get this from tina.io
+  token: process.env.TINA_TOKEN!, // Get this from tina.io
   build: {
     outputFolder: "admin",
-    publicFolder: "../public"
+    publicFolder: "public", // The public asset folder for your framework
   },
   media: {
     tina: {
       mediaRoot: "src/assets",
-      publicFolder: "../public",
+      publicFolder: "public",
     },
   },
+  // See docs on content modeling for more info on how to setup new content types: https://tina.io/docs/schema/
   schema: {
     collections: [
       {
