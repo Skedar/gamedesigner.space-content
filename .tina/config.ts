@@ -6,12 +6,13 @@ export default defineConfig({
   token: process.env.TINA_TOKEN!,
   build: {
     outputFolder: "admin",
-    publicFolder: "public",
+    publicFolder: "../public",
+    basePath: "admin"
   },
   media: {
     tina: {
       mediaRoot: "src/assets",
-      publicFolder: "public",
+      publicFolder: "../public",
     },
   },
   search: {
