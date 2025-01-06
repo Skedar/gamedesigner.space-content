@@ -9,7 +9,7 @@ node_modules
 .env.production.local
 
 # Tina
-.tina/__generated__/*
+tina/__generated__/*
 
 # Build directories
 dist
@@ -17,8 +17,8 @@ build
 out
 
 # Não ignorar
-!.tina/config.ts
-!.tina/tina-lock.json
-!content/posts
-!uploads
+!tina/config.ts
+!tina/tina-lock.json
+!src/content/blog
+!src/assets
 !public
