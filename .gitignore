@@ -1,0 +1,4 @@
+# Tina
+.tina/__generated__/*
+.env
+node_modules 
