@@ -10,7 +10,7 @@ export default defineConfig({
   },
   media: {
     tina: {
-      mediaRoot: "assets",
+      mediaRoot: "src/assets",
       publicFolder: "public",
     },
   },
@@ -25,7 +25,7 @@ export default defineConfig({
       {
         name: "post",
         label: "Posts",
-        path: "content/blog",
+        path: "src/content/blog",
         format: "mdx",
         fields: [
           {
