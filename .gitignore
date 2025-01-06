@@ -2,3 +2,7 @@
 .tina/__generated__/*
 .env
 node_modules
+
+# Não ignorar
+!.tina/config.ts
+!.tina/tina-lock.json

@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "tinacms dev -c \"astro dev\"",
-    "build": "tinacms build && astro build"
+    "dev": "tinacms dev",
+    "build": "tinacms build"
   },
   "dependencies": {
     "tinacms": "^1.5.28",
     "@tinacms/cli": "^1.5.29"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "prettier": "^3.3.3"
   }
 }

@@ -14,12 +14,6 @@ export default defineConfig({
       publicFolder: "../public",
     },
   },
-  search: {
-    tina: {
-      indexerToken: process.env.TINA_SEARCH_TOKEN,
-      stopwordLanguages: ["por"]
-    },
-  },
   schema: {
     collections: [
       {
