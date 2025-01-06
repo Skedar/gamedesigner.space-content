@@ -14,6 +14,12 @@ var config_default = defineConfig({
       publicFolder: "public"
     }
   },
+  search: {
+    tina: {
+      indexerToken: process.env.TINA_SEARCH_TOKEN,
+      stopwordLanguages: ["por"]
+    }
+  },
   schema: {
     collections: [
       {
@@ -63,12 +69,6 @@ var config_default = defineConfig({
         ]
       }
     ]
-  },
-  search: {
-    tina: {
-      indexerToken: process.env.TINA_TOKEN,
-      stopwordLanguages: ["por"]
-    }
   }
 });
 export {
