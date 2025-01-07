@@ -17,8 +17,5 @@ build
 out
 
 # Não ignorar
-!tina/config.ts
-!tina/tina-lock.json
 !src/content/blog
 !src/assets
-!public
