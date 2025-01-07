@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "@tinacms/cli": "^1.8.0",
+    "@types/node": "^22.10.5",
+    "tinacms": "^2.6.0"
+  }
+}
