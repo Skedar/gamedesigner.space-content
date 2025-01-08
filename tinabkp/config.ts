@@ -7,11 +7,11 @@ export default defineConfig({
   build: {
     outputFolder: "admin",
     publicFolder: "public",
-   basePath: "admin"
+    basePath: "admin"
   },
   media: {
     tina: {
-      mediaRoot: "src/assets",
+      mediaRoot: "assets",
       publicFolder: "public",
     },
   },
@@ -26,8 +26,8 @@ export default defineConfig({
       {
         name: "post",
         label: "Posts",
-        path: "src/content/blog",
-        format: "md",
+        path: "content/blog",
+        format: "mdx",
         fields: [
           {
             type: "string",
