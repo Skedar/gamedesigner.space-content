@@ -1,9 +1,0 @@
-fragment PostParts on Post {
-  __typename
-  title
-  description
-  pubDatetime
-  author
-  tags
-  body
-}
