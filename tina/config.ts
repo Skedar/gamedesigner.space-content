@@ -1,24 +1,17 @@
 import { defineConfig } from "tinacms";
 
 export default defineConfig({
-  branch: process.env.HEAD || "main",
-  clientId: process.env.PUBLIC_TINA_CLIENT_ID!,
-  token: process.env.TINA_TOKEN!,
+  branch: process.env.GITHUB_BRANCH || "main",
+  clientId: process.env.TINA_CLIENT_ID,
+  token: process.env.TINA_TOKEN,
   build: {
     outputFolder: "admin",
     publicFolder: "public",
-   basePath: "admin"
   },
   media: {
     tina: {
-      mediaRoot: "src/assets",
+      mediaRoot: "content/images",
       publicFolder: "public",
-    },
-  },
-  search: {
-    tina: {
-      indexerToken: process.env.TINA_SEARCH_TOKEN,
-      stopwordLanguages: ["por"]
     },
   },
   schema: {
@@ -26,15 +19,21 @@ export default defineConfig({
       {
         name: "post",
         label: "Posts",
-        path: "src/content/blog",
-        format: "md",
+        path: "content/blog",
+        format: "mdx",
         fields: [
           {
             type: "string",
             name: "title",
             label: "Title",
-            required: true,
             isTitle: true,
+            required: true,
+          },
+          {
+            type: "datetime",
+            name: "pubDatetime",
+            label: "Date",
+            required: true,
           },
           {
             type: "string",
@@ -43,16 +42,20 @@ export default defineConfig({
             required: true,
           },
           {
-            type: "datetime",
-            name: "pubDatetime",
-            label: "Publication Date",
-            required: true,
-          },
-          {
             type: "string",
             name: "author",
             label: "Author",
             required: true,
+          },
+          {
+            type: "boolean",
+            name: "featured",
+            label: "Featured",
+          },
+          {
+            type: "boolean",
+            name: "draft",
+            label: "Draft",
           },
           {
             type: "string",
@@ -71,8 +74,4 @@ export default defineConfig({
       },
     ],
   },
-  cmsCallback: cms => {
-    cms.flags.set("branch-switcher", true);
-    return cms;
-  }
 });
