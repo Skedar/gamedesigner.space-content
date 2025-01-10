@@ -17,5 +17,5 @@ build
 out
 
 # Não ignorar
-!src/content/blog
-!src/assets
+!content/blog
+!assets/images
