@@ -20,7 +20,7 @@ export default defineConfig({
         name: "post",
         label: "Posts",
         path: "content/blog",
-        format: "mdx",
+        format: "md",
         fields: [
           {
             type: "string",
