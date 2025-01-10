@@ -16,14 +16,13 @@ jobs:
     - name: Set up SSH
       env:
         SSH_PRIVATE_KEY: ${{ secrets.HOSTINGER_SSH_KEY }}
-        SSH_USER: ${{ secrets.HOSTINGER_SSH_USER }}
       run: |
         mkdir -p ~/.ssh
         echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
-        echo -e "Host hostinger\n  HostName 147.79.84.11\n  User $SSH_USER\n  Port 65002\n  IdentityFile ~/.ssh/id_rsa" >> ~/.ssh/config
+        echo -e "Host hostinger\n  HostName 147.79.84.11\n  User u226268380\n  Port 65002\n  IdentityFile ~/.ssh/id_rsa" > ~/.ssh/config
         ssh-keyscan -p 65002 147.79.84.11 >> ~/.ssh/known_hosts
-
+    
     - name: Deploy to Hostinger
       run: |
-        rsync -avz content/ $SSH_USER:content/
+        rsync -avz content/ hostinger:/home/u226268380/content/
