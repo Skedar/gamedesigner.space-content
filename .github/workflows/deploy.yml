@@ -26,4 +26,4 @@ jobs:
 
     - name: Deploy to Hostinger
       run: |
-        rsync -avz content/ $SSH_USER:/home/u226268380/content/
+        rsync -avz content/ $SSH_USER:content/
