@@ -32,8 +32,8 @@ jobs:
       - name: Sincronizar conteúdo
         run: |
           # Remover conteúdo antigo do projeto
-          rm -rf project-repo/content
-          rm -rf project-repo/assets
+          rm -rf project-repo/src/content
+          rm -rf project-repo/src/assets
 
           # Copiar novo conteúdo
           cp -r content-repo/content project-repo/
