@@ -1,10 +1,13 @@
 import { defineConfig } from 'tinacms'
 
 const branch = process.env.TINA_BRANCH || 'main'
+const clientId = process.env.TINA_CLIENT_ID
+
+const isLocal = process.env.NODE_ENV === 'development'
 
 export default defineConfig({
   branch,
-  clientId: process.env.TINA_CLIENT_ID,
+  clientId,
   token: process.env.TINA_TOKEN,
 
   build: {
