@@ -32,89 +32,148 @@ export default defineConfig({
         name: "posts",
         label: "Blog Posts",
         path: "content/posts",
-        format: "mdx",
-        fields: [
+        format: "md",
+        templates: [
           {
-            type: "string",
-            name: "title",
-            label: "Título",
-            isTitle: true,
-            required: true,
-          },
-          {
-            type: "datetime",
-            name: "pubDate",
-            label: "Data de Publicação",
-            required: true,
-          },
-          {
-            type: "string",
-            name: "description",
-            label: "Descrição",
-            required: true,
-          },
-          {
-            type: "image",
-            name: "heroImage",
-            label: "Imagem de Capa",
-          },
-          {
-            type: "string",
-            name: "category",
-            label: "Categoria",
-            options: ["Game Design", "Level Design", "Narrativa", "Mecânicas", "Tutoriais"],
-          },
-          {
-            type: "string",
-            name: "tags",
-            label: "Tags",
-            list: true,
-          },
-          {
-            type: "boolean",
-            name: "featured",
-            label: "Destaque",
-          },
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Conteúdo",
-            isBody: true,
-            templates: [
+            name: "default",
+            label: "Post Markdown (.md)",
+            fields: [
               {
-                name: "CodeBlock",
-                label: "Bloco de Código",
-                fields: [
-                  {
-                    name: "language",
-                    label: "Linguagem",
-                    type: "string",
-                    options: ["javascript", "typescript", "python", "json", "html", "css"],
-                  },
-                  {
-                    name: "code",
-                    label: "Código",
-                    type: "string",
-                    ui: {
-                      component: "textarea",
-                    },
-                  },
-                ],
+                type: "string",
+                name: "title",
+                label: "Título",
+                isTitle: true,
+                required: true,
               },
               {
-                name: "CalloutBlock",
-                label: "Callout",
-                fields: [
+                type: "datetime",
+                name: "pubDate",
+                label: "Data de Publicação",
+                required: true,
+              },
+              {
+                type: "string",
+                name: "description",
+                label: "Descrição",
+                required: true,
+              },
+              {
+                type: "image",
+                name: "heroImage",
+                label: "Imagem de Capa",
+              },
+              {
+                type: "string",
+                name: "category",
+                label: "Categoria",
+                options: ["Game Design", "Level Design", "Narrativa", "Mecânicas", "Tutoriais"],
+              },
+              {
+                type: "string",
+                name: "tags",
+                label: "Tags",
+                list: true,
+              },
+              {
+                type: "boolean",
+                name: "featured",
+                label: "Destaque",
+              },
+              {
+                type: "rich-text",
+                name: "body",
+                label: "Conteúdo",
+                isBody: true,
+              },
+            ],
+          },
+          {
+            name: "mdx",
+            label: "Post MDX (.mdx)",
+            fields: [
+              {
+                type: "string",
+                name: "title",
+                label: "Título",
+                isTitle: true,
+                required: true,
+              },
+              {
+                type: "datetime",
+                name: "pubDate",
+                label: "Data de Publicação",
+                required: true,
+              },
+              {
+                type: "string",
+                name: "description",
+                label: "Descrição",
+                required: true,
+              },
+              {
+                type: "image",
+                name: "heroImage",
+                label: "Imagem de Capa",
+              },
+              {
+                type: "string",
+                name: "category",
+                label: "Categoria",
+                options: ["Game Design", "Level Design", "Narrativa", "Mecânicas", "Tutoriais"],
+              },
+              {
+                type: "string",
+                name: "tags",
+                label: "Tags",
+                list: true,
+              },
+              {
+                type: "boolean",
+                name: "featured",
+                label: "Destaque",
+              },
+              {
+                type: "rich-text",
+                name: "body",
+                label: "Conteúdo",
+                isBody: true,
+                templates: [
                   {
-                    name: "type",
-                    label: "Tipo",
-                    type: "string",
-                    options: ["info", "warning", "error", "success"],
+                    name: "CodeBlock",
+                    label: "Bloco de Código",
+                    fields: [
+                      {
+                        name: "language",
+                        label: "Linguagem",
+                        type: "string",
+                        options: ["javascript", "typescript", "python", "json", "html", "css"],
+                      },
+                      {
+                        name: "code",
+                        label: "Código",
+                        type: "string",
+                        ui: {
+                          component: "textarea",
+                        },
+                      },
+                    ],
                   },
                   {
-                    name: "text",
-                    label: "Texto",
-                    type: "string",
+                    name: "CalloutBlock",
+                    label: "Callout",
+                    fields: [
+                      {
+                        name: "type",
+                        label: "Tipo",
+                        type: "string",
+                        options: ["info", "warning", "error", "success"],
+                      },
+                      {
+                        name: "text",
+                        label: "Texto",
+                        type: "string",
+                      },
+                    ],
                   },
                 ],
               },
