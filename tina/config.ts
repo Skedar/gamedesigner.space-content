@@ -3,21 +3,19 @@ import { defineConfig } from 'tinacms'
 const branch = process.env.TINA_BRANCH || 'main'
 const clientId = process.env.TINA_CLIENT_ID
 
-const isLocal = process.env.NODE_ENV === 'development'
-
 export default defineConfig({
   branch,
   clientId,
   token: process.env.TINA_TOKEN,
 
   build: {
-    outputFolder: 'admin',
+    outputFolder: 'public/admin',
     publicFolder: 'public',
-    basePath: 'admin',
+    basePath: '',
   },
   media: {
     tina: {
-      mediaRoot: 'src/assets',
+      mediaRoot: 'assets',
       publicFolder: 'public',
     },
   },
@@ -32,7 +30,7 @@ export default defineConfig({
       {
         name: 'post',
         label: 'Posts',
-        path: 'src/content/posts',
+        path: 'content/posts',
         format: 'mdx',
         ui: {
           router: ({ document }) => {
@@ -79,6 +77,52 @@ export default defineConfig({
             type: 'boolean',
             name: 'draft',
             label: 'Rascunho',
+          },
+          {
+            type: 'string',
+            name: 'lang',
+            label: 'Idioma',
+            options: [
+              {
+                value: 'pt-BR',
+                label: 'Português',
+              },
+              {
+                value: 'en',
+                label: 'English',
+              },
+            ],
+          },
+          {
+            type: 'rich-text',
+            name: 'body',
+            label: 'Conteúdo',
+            isBody: true,
+          },
+        ],
+      },
+      {
+        name: 'spec',
+        label: 'Páginas Estáticas',
+        path: 'content/spec',
+        format: 'mdx',
+        ui: {
+          router: ({ document }) => {
+            return `/${document._sys.filename}`
+          },
+        },
+        fields: [
+          {
+            type: 'string',
+            name: 'title',
+            label: 'Título',
+            isTitle: true,
+            required: true,
+          },
+          {
+            type: 'string',
+            name: 'description',
+            label: 'Descrição',
           },
           {
             type: 'string',
