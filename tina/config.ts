@@ -1,77 +1,99 @@
 import { defineConfig } from "tinacms";
 
+const branch = process.env.TINA_BRANCH || "main";
+
 export default defineConfig({
-  branch: process.env.GITHUB_BRANCH || "main",
-  clientId: process.env.TINA_CLIENT_ID,
-  token: process.env.TINA_TOKEN,
-  build: {
-    outputFolder: "admin",
-    publicFolder: "public",
-  },
-  media: {
-    tina: {
-      mediaRoot: "assets/images",
-      publicFolder: "public",
-    },
-  },
-  schema: {
-    collections: [
-      {
-        name: "post",
-        label: "Posts",
-        path: "content/posts",
-        format: "md",
-        fields: [
-          {
-            type: "string",
-            name: "title",
-            label: "Title",
-            isTitle: true,
-            required: true,
-          },
-          {
-            type: "datetime",
-            name: "pubDatetime",
-            label: "Date",
-            required: true,
-          },
-          {
-            type: "string",
-            name: "description",
-            label: "Description",
-            required: true,
-          },
-          {
-            type: "string",
-            name: "author",
-            label: "Author",
-            required: true,
-          },
-          {
-            type: "boolean",
-            name: "featured",
-            label: "Featured",
-          },
-          {
-            type: "boolean",
-            name: "draft",
-            label: "Draft",
-          },
-          {
-            type: "string",
-            name: "tags",
-            label: "Tags",
-            list: true,
-            required: true,
-          },
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body",
-            isBody: true,
-          },
-        ],
-      },
-    ],
-  },
+	branch,
+	clientId: process.env.TINA_CLIENT_ID,
+	token: process.env.TINA_TOKEN,
+
+	build: {
+		outputFolder: "admin",
+		publicFolder: "public",
+	},
+	media: {
+		tina: {
+			mediaRoot: "src/assets",
+			publicFolder: "public",
+		},
+	},
+	search: {
+		tina: {
+			indexerToken: process.env.TINA_SEARCH_TOKEN,
+			stopwordLanguages: ["por"],
+		},
+	},
+	schema: {
+		collections: [
+			{
+				name: "post",
+				label: "Posts",
+				path: "src/content/posts",
+				format: "mdx",
+				fields: [
+					{
+						type: "string",
+						name: "title",
+						label: "Título",
+						isTitle: true,
+						required: true,
+					},
+					{
+						type: "datetime",
+						name: "published",
+						label: "Data de Publicação",
+						required: true,
+					},
+					{
+						type: "string",
+						name: "description",
+						label: "Descrição",
+						required: true,
+					},
+					{
+						type: "image",
+						name: "image",
+						label: "Imagem de Capa",
+					},
+					{
+						type: "string",
+						name: "tags",
+						label: "Tags",
+						list: true,
+					},
+					{
+						type: "string",
+						name: "category",
+						label: "Categoria",
+					},
+					{
+						type: "boolean",
+						name: "draft",
+						label: "Rascunho",
+					},
+					{
+						type: "string",
+						name: "lang",
+						label: "Idioma",
+						options: [
+							{
+								value: "pt-BR",
+								label: "Português",
+							},
+							{
+								value: "en",
+								label: "English",
+							},
+						],
+					},
+					{
+						type: "rich-text",
+						name: "body",
+						label: "Conteúdo",
+						isBody: true,
+					},
+				],
+			},
+		],
+	},
 });
