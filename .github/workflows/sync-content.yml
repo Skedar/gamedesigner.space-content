@@ -1,0 +1,60 @@
+name: Sincronizar Conteúdo
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'content/**'
+      - 'assets/**'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout conteúdo
+        uses: actions/checkout@v4
+        with:
+          path: content-repo
+
+      - name: Checkout projeto
+        uses: actions/checkout@v4
+        with:
+          repository: Skedar/gamedesigner.space
+          token: ${{ secrets.PAT_TOKEN }}
+          path: project-repo
+
+      - name: Configurar Git
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+      - name: Sincronizar conteúdo
+        run: |
+          # Remover conteúdo antigo do projeto
+          rm -rf project-repo/content
+          rm -rf project-repo/assets
+
+          # Copiar novo conteúdo
+          cp -r content-repo/content project-repo/
+          cp -r content-repo/assets project-repo/
+
+          # Entrar no diretório do projeto
+          cd project-repo
+
+          # Verificar se há mudanças
+          if [[ -n "$(git status --porcelain)" ]]; then
+            # Adicionar mudanças
+            git add content assets
+            
+            # Commit com mensagem descritiva
+            git commit -m "🤖 Sync: Atualização automática de conteúdo
+            
+            Alterações sincronizadas do repositório de conteúdo
+            Commit original: ${{ github.sha }}"
+            
+            # Push das alterações
+            git push
+          else
+            echo "Nenhuma alteração detectada"
+          fi 
