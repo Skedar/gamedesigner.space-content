@@ -1,3 +1,9 @@
+---
+title: About
+description: About Game Designer Space
+lang: pt-BR
+---
+
 # About
 This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
 
