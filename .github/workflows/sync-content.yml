@@ -39,7 +39,7 @@ jobs:
           cp -r content-repo/content project-repo/src
           cp -r content-repo/assets project-repo/src
           # Entrar no diretório do projeto
-          cd project-repo
+          cd project-repo/src
 
           # Verificar se há mudanças
           if [[ -n "$(git status --porcelain)" ]]; then
