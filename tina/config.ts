@@ -36,7 +36,7 @@ export default defineConfig({
         templates: [
           {
             name: 'default',
-            label: 'Post Markdown (.md)',
+            label: 'Post Markdown',
             fields: [
               {
                 type: 'string',
@@ -47,11 +47,20 @@ export default defineConfig({
               },
               {
                 type: 'datetime',
-                name: 'pubDate',
+                name: 'published',
                 label: 'Data de Publicação',
                 required: true,
                 ui: {
-                  dateFormat: 'YYYY-MM-DD',
+                  dateFormat: 'DD-MM-YYYY',
+                  timeFormat: '',
+                },
+              },
+              {
+                type: 'datetime',
+                name: 'updated',
+                label: 'Data de Atualização',
+                ui: {
+                  dateFormat: 'DD-MM-YYYY',
                   timeFormat: '',
                 },
               },
@@ -76,6 +85,7 @@ export default defineConfig({
                   'Narrativa',
                   'Mecânicas',
                   'Tutoriais',
+                  'Examples',
                 ],
               },
               {
@@ -94,115 +104,6 @@ export default defineConfig({
                 name: 'body',
                 label: 'Conteúdo',
                 isBody: true,
-              },
-            ],
-          },
-          {
-            name: 'mdx',
-            label: 'Post MDX (.mdx)',
-            fields: [
-              {
-                type: 'string',
-                name: 'title',
-                label: 'Título',
-                isTitle: true,
-                required: true,
-              },
-              {
-                type: 'datetime',
-                name: 'pubDate',
-                label: 'Data de Publicação',
-                required: true,
-                ui: {
-                  dateFormat: 'YYYY-MM-DD',
-                  timeFormat: '',
-                },
-              },
-              {
-                type: 'string',
-                name: 'description',
-                label: 'Descrição',
-                required: true,
-              },
-              {
-                type: 'image',
-                name: 'image',
-                label: 'Imagem de Capa',
-              },
-              {
-                type: 'string',
-                name: 'category',
-                label: 'Categoria',
-                options: [
-                  'Game Design',
-                  'Level Design',
-                  'Narrativa',
-                  'Mecânicas',
-                  'Tutoriais',
-                ],
-              },
-              {
-                type: 'string',
-                name: 'tags',
-                label: 'Tags',
-                list: true,
-              },
-              {
-                type: 'boolean',
-                name: 'draft',
-                label: 'Rascunho',
-              },
-              {
-                type: 'rich-text',
-                name: 'body',
-                label: 'Conteúdo',
-                isBody: true,
-                templates: [
-                  {
-                    name: 'CodeBlock',
-                    label: 'Bloco de Código',
-                    fields: [
-                      {
-                        name: 'language',
-                        label: 'Linguagem',
-                        type: 'string',
-                        options: [
-                          'javascript',
-                          'typescript',
-                          'python',
-                          'json',
-                          'html',
-                          'css',
-                        ],
-                      },
-                      {
-                        name: 'code',
-                        label: 'Código',
-                        type: 'string',
-                        ui: {
-                          component: 'textarea',
-                        },
-                      },
-                    ],
-                  },
-                  {
-                    name: 'CalloutBlock',
-                    label: 'Callout',
-                    fields: [
-                      {
-                        name: 'type',
-                        label: 'Tipo',
-                        type: 'string',
-                        options: ['info', 'warning', 'error', 'success'],
-                      },
-                      {
-                        name: 'text',
-                        label: 'Texto',
-                        type: 'string',
-                      },
-                    ],
-                  },
-                ],
               },
             ],
           },
