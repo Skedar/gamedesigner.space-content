@@ -36,9 +36,8 @@ jobs:
           rm -rf project-repo/src/assets
 
           # Copiar novo conteúdo
-          cp -r content-repo/content project-repo/
-          cp -r content-repo/assets project-repo/
-
+          cp -r content-repo/content project-repo/src
+          cp -r content-repo/assets project-repo/src
           # Entrar no diretório do projeto
           cd project-repo
 
