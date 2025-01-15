@@ -1,12 +1,12 @@
-# 🎮 Game Designer Space - Blog e Dev Log sobre Desenvolvimento de Jogos
-
 ![Game Designer Space](gdsghb.jpg)  
 
-Bem-vindo ao repositório do meu blog e dev log pessoal, um espaço onde compartilho minha jornada como desenvolvedor de jogos e principalmente game designer! Este projeto não é apenas um site; é um diário de desenvolvimento (dev log) repleto de aprendizados, desafios e conquistas no incrível universo de criação de jogos.  
+# 🎮 Blog e Dev Log sobre Game Design e Desenvolvimento de Jogos
+
+Bem-vindo ao repositório do meu blog e dev log pessoal, um espaço onde compartilho minha jornada como desenvolvedor de jogos e principalmente game designer! Este projeto é um diário de desenvolvimento (dev log) repleto de aprendizados, desafios e conquistas no incrível universo de criação de jogos.  
 
 ---
 
-## 📝 Sobre o Blog
+## 📝 Sobre o Blog/Devlog
 
 Este blog/devlog é minha forma de documentar o processo criativo e técnico por trás do desenvolvimento de jogos. Aqui, você encontrará:  
 
@@ -26,23 +26,31 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 - **Astro**: Framework estático para gerar um site rápido, leve e eficiente.  
 - **Markdown**: Para gerenciar as postagens do blog.  
 
-Este é o meu primeiro contato com Astro e com a criação de conteúdo estático com MD, portanto propositalmente o meu aprendizado já se iniciou no momento em que comecei a desenvolver este site! 
+Este é o meu primeiro contato com Astro e com a criação de conteúdo estático utilizando markdown, portanto fiz desta forma propositalmente para que o meu aprendizado já se iniciasse no momento em que comecei a desenvolver este projeto! 
+
+Estou utilizando o template [Fuwari](https://github.com/saicaca/fuwari) como base para este projeto. Fiz muitas modificações para que o site seja mais personalizado e para que o meu conteúdo seja mais organizado. 
+
+O intuito deste repositório é justamente ser um espaço para que eu possa armazenar meus conteúdos e ter um backup de todos os meus posts e projetos e assim posso modificar a tecnologia, framework, template sem perder absolutamente nada!
 
 ---
 
 ## 🎯 Objetivos do Projeto
 
-1. **Inspirar outros desenvolvedores**: Mostrar que os desafios fazem parte da jornada.  
+1. **Inspirar outros desenvolvedores (principalmente brasileiros)**: Mostrar que os desafios fazem parte da jornada.  
 2. **Compartilhar conhecimento**: Criar um espaço para troca de ideias e aprendizado contínuo.  
 3. **Documentar minha evolução**: Acompanhar meu crescimento profissional ao longo do tempo.  
+4. **Desenvolver minhas habilidades**: Aprender novas tecnologias e frameworks.  
+5. **Aprender com outros desenvolvedores**: Aprender com outros desenvolvedores e designers de jogos.  
+6. **Disponibilizar conteúdo para outros desenvolvedores**: Disponibilizar conteúdo para outros desenvolvedores e designers de jogos.  
 
 ---
 
 ## 🖼️ Estrutura do Repositório
 
-- `/src` - Arquivos de código-fonte do site e blog.  
-- `/public` - Imagens, ícones e recursos estáticos.  
-- `/posts` - Arquivos Markdown com o conteúdo das postagens do blog.  
+- `/assets` - Imagens, ícones e recursos estáticos.  
+- `/content` - Arquivos Markdown com o conteúdo das postagens do blog.  
+- `/projetos` - Projetos e desenvolvimentos. 
+- `/resources` - Recursos úteis para desenvolvedores e designers de jogos. 
 
 ---
 
@@ -60,12 +68,17 @@ ou...
 
 Quer trocar uma ideia ou colaborar? Me encontre em:  
 - **Email**: contato@skedarcorp.com  
-- **LinkedIn**: [SeuPerfilLinkedIn](https://www.linkedin.com/in/skedarcorp/)  
-- **Portfólio**: [SeuPortfolio](https://skedar.github.io/)  
-- **Site Pessoal**: [SeuPortfolio](https://skedarcorp.com/)  
+- **LinkedIn**: [Luis "Skedar" Rizzi](https://www.linkedin.com/in/skedarcorp/)  
+- **Portfólio**: [Github Pages](https://skedar.github.io/)  
+- **Site Pessoal**: [Skedar Corporation](https://skedarcorp.com/)  
+- **Loja Online**: [Necromantis](https://necromantis.com.br/) 
+- **Game Studio**: [Dead Pirate Studios](https://deadpiratestudios.com/) 
+
 
 ---
 
-**"Desenvolver jogos é uma jornada incrível. Espero que este projeto inspire você tanto quanto me inspira a continuar aprendendo e criando!"**  
+**"Desenvolver jogos é uma jornada incrível. Espero que este projeto inspire você tanto quanto me inspira a continuar aprendendo e criando!"**  🎮
+
+**Me compre um** [Ginger Ale!](https://buymeacoffee.com/skedar) 🧋
 
 ---
