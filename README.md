@@ -1,6 +1,6 @@
 # 🎮 Game Designer Space - Blog e Dev Log sobre Desenvolvimento de Jogos
 
-![Game Development Banner](https://via.placeholder.com/1200x400.png?text=Game+Development+-+Journey+and+Design)  
+![Game Designer Space](gdsghb.jpg)  
 
 Bem-vindo ao repositório do meu blog e dev log pessoal, um espaço onde compartilho minha jornada como desenvolvedor de jogos e principalmente game designer! Este projeto não é apenas um site; é um diário de desenvolvimento (dev log) repleto de aprendizados, desafios e conquistas no incrível universo de criação de jogos.  
 
