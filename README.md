@@ -1,12 +1,12 @@
 ![Game Designer Space](gdsghb.jpg)  
 
-# 🎮 Blog e Dev Log sobre Game Design e Desenvolvimento de Jogos
+# 🎮 Um Blog e Devlogs
 
-Bem-vindo ao repositório do meu blog e dev log pessoal, um espaço onde compartilho minha jornada como desenvolvedor de jogos e principalmente game designer! Este projeto é um diário de desenvolvimento (dev log) repleto de aprendizados, desafios e conquistas no incrível universo de criação de jogos.  
+Bem-vindo ao repositório do meu blog e devlogs pessoal, um espaço onde compartilho minha jornada como desenvolvedor de jogos e principalmente game designer! Este projeto é um blog junto com um diário de desenvolvimento (devlog) repleto de aprendizados, desafios e conquistas no incrível universo de criação de jogos.  
 
 ---
 
-## 📝 Sobre o Blog/Devlog
+## 📝 Sobre
 
 Este blog/devlog é minha forma de documentar o processo criativo e técnico por trás do desenvolvimento de jogos. Aqui, você encontrará:  
 
@@ -24,7 +24,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - **HTML5, CSS3 e JavaScript**: A base da construção do site.  
 - **Astro**: Framework estático para gerar um site rápido, leve e eficiente.  
-- **Markdown**: Para gerenciar as postagens do blog.  
+- **Markdown**: Para gerenciar as postagens e conteúdos.  
 
 Este é o meu primeiro contato com Astro e com a criação de conteúdo estático utilizando markdown, portanto fiz desta forma propositalmente para que o meu aprendizado já se iniciasse no momento em que comecei a desenvolver este projeto! 
 
@@ -40,8 +40,8 @@ O intuito deste repositório é justamente ser um espaço para que eu possa arma
 2. **Compartilhar conhecimento**: Criar um espaço para troca de ideias e aprendizado contínuo.  
 3. **Documentar minha evolução**: Acompanhar meu crescimento profissional ao longo do tempo.  
 4. **Desenvolver minhas habilidades**: Aprender novas tecnologias e frameworks.  
-5. **Aprender com outros desenvolvedores**: Aprender com outros desenvolvedores e designers de jogos.  
-6. **Disponibilizar conteúdo para outros desenvolvedores**: Disponibilizar conteúdo para outros desenvolvedores e designers de jogos.  
+5. **Aprender**: Aprender com outros desenvolvedores e designers de jogos.  
+6. **Disponibilizar conteúdo**: Disponibilizar conteúdo para outros desenvolvedores e designers de jogos.  
 
 ---
 
