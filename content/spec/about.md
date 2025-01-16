@@ -1,5 +1,5 @@
 # Sobre
-Luis Rizzi, mais conhecido como Skedar, já foi um gestor de TI com mais de 15 anos de carreira, é apaixonado por inovação e criatividade. Formado e pós-graduado em desenvolvimento de jogos, game design, UI/UX, desenvolvimento de software com ênfase em qualidade, possui MBA em gestão de projetos, ele combina toda a sua expertise técnica com uma visão artística única, especialmente no fascinante universo cyberpunk do qual é fascinado.
+Luis Rizzi, mais conhecido como Skedar, já foi um gestor de TI com mais de 15 anos de carreira, é apaixonado por inovação e criatividade. Formado e pós-graduado em desenvolvimento de jogos, game design, UI/UX, desenvolvimento de software com ênfase em qualidade, possui MBA em gestão de projetos, ele combina toda a sua expertise técnica com uma visão artística única, especialmente no incrível universo cyberpunk do qual é fascinado.
 
 Com uma mente inquieta e curiosa, Luis é o tipo de pessoa que transforma ideias (bem) mirabolantes em projetos incríveis. Ele não apenas entende de tecnologia, mas também vive e respira cultura geek, sendo fã de jogos de estratégia, RPGs e músicas fora do convencional. Skedar é uma verdadeira fábrica de ideias, sempre explorando novas formas de conectar tecnologia, arte e entretenimento.
 
