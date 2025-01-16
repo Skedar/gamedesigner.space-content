@@ -1,9 +1,21 @@
 # Sobre
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+Luis Rizzi, mais conhecido como Skedar, já foi um gestor de TI com mais de 15 anos de carreira, e é apaixonado por inovação e criatividade. Formado e pós-graduado em desenvolvimento de jogos, game design, UX/UI, desenvolvimento de software com ênfase em qualidade, possui MBA em gestão de projetos, ele combina toda a sua expertise técnica com uma visão artística única, especialmente no fascinante universo cyberpunk do qual é fã.
 
-::github{repo="Skedar/gamedesigner.space-content"}
+Com uma mente inquieta e curiosa, Luis é o tipo de pessoa que transforma ideias (bem) mirabolantes em projetos incríveis. Ele não apenas entende de tecnologia, mas também vive e respira cultura geek, sendo fã de jogos de estratégia, RPGs e músicas fora do convencional. Skedar é uma verdadeira fábrica de ideias, sempre explorando novas formas de conectar tecnologia, arte e entretenimento.
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+Seja criando mundos fantásticos ou solucionando desafios complexos, Luis une paixão, conhecimento e uma pitada de ousadia em tudo o que faz. Um profissional visionário que está sempre pronto para transformar o impossível em realidade.
+
+> ## Meus projetos, serviços e trabalhos
+> - [Blog Pessoal](https://skedarcorp.com)
+> - [Loja Necromantis](https://necromantis.com.br)
+> - [NMTS Serviços](https://nmts.com.br) 
+> - [Dead Pirate Studios](https://deadpiratestudios.com)
+> - [Diversão Educativa](https://diversaoeducativa.com.br)
+
+> ## Algumas redes sociais que participo
+> - [Instagram](https://www.instagram.com/skedarcorp/)
+> - [Mastodon](https://mastodon.social/deck/@Skedar)
+> - [BlueSky](https://bsky.app/profile/skedar.bsky.social) 
+> - [Linkedin](https://www.linkedin.com/in/skedarcorp/)
+> - [Telegram](https://t.me/skedar)
+> - [Discord](https://discord.com/users/skedarcorp)
