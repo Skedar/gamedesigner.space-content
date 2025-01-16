@@ -1,12 +1,13 @@
 ---
-title: Markdown Extended Features
-published: 2024-05-01
-updated: 2024-11-29
-description: 'Read more about Markdown features in Fuwari'
-image: ''
-tags: [Demo, Example, Markdown, Fuwari]
-category: 'Examples'
-draft: false 
+title: Markdown Extended Example
+published: 2023-10-03T00:00:00.000Z
+description: An extended example of Markdown features.
+category: Examples
+tags:
+  - Markdown
+  - Advanced
+  - Tutorial
+_template: default
 ---
 
 ## GitHub Repository Cards

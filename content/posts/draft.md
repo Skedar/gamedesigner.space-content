@@ -1,9 +1,12 @@
 ---
-title: Draft Example
-published: 2022-07-01
-tags: [Markdown, Blogging, Demo]
-category: Examples
-draft: true
+title: Draft Post
+published: 2023-10-04T00:00:00.000Z
+description: An example of a draft post.
+category: Drafts
+tags:
+  - Draft
+  - Example
+_template: default
 ---
 
 # This Article is a Draft
