@@ -4,6 +4,8 @@
 
 Bem-vindo ao repositório do meu blog e devlogs pessoal, um espaço onde compartilho minha jornada como desenvolvedor de jogos e principalmente game designer! Este projeto é um blog junto com um diário de desenvolvimento (devlog) repleto de aprendizados, desafios e conquistas no incrível universo de criação de jogos.  
 
+Link para o site: https://gamedesigner.space/
+
 ---
 
 ## 📝 Sobre
