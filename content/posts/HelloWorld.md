@@ -2,7 +2,7 @@
 title: Hello...World!
 published: 2025-01-15T03:00:00.000Z
 description: 'Mark 1 - Início, a abertura, a criação, its alive!'
-category: noticias
+category: Notícias
 tags:
   - skedar
   - noticias
