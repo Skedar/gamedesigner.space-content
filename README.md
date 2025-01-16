@@ -81,6 +81,4 @@ Quer trocar uma ideia ou colaborar? Me encontre em:
 
 **"Desenvolver jogos é uma jornada incrível. Espero que este projeto inspire você tanto quanto me inspira a continuar aprendendo e criando!"**  🎮
 
-**Me compre um** [Ginger Ale!](https://buymeacoffee.com/skedar) 🧋
-
 ---
