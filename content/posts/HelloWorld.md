@@ -34,7 +34,7 @@ Este blog não é apenas uma plataforma para compartilhar conhecimentos; é tamb
 
 Então, prepare seu inventário: está na hora de embarcar nessa aventura juntos. Vamos explorar novos horizontes, criar mundos extraordinários e, claro, nos divertir no processo.
 
-**Bem-vindo ao blog e ao início desta jornada. Que comece o jogo!**
+**Bem-vindo ao blog e ao início desta jornada. Que comece o jogo! :)**
 
 ***
 
