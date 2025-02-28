@@ -6,11 +6,12 @@ Com uma mente inquieta e curiosa, Luis é o tipo de pessoa que transforma ideias
 Seja criando mundos fantásticos ou solucionando desafios complexos, Luis une paixão, conhecimento e uma pitada de ousadia em tudo o que faz. Um profissional visionário que está sempre pronto para transformar o impossível em realidade.
 
 > ## Meus projetos, serviços e trabalhos
-> - [Blog Pessoal](https://skedarcorp.com)
+> - [Site/Blog Pessoal](https://skedarcorp.com)
 > - [Loja Necromantis](https://necromantis.com.br)
 > - [NMTS Serviços](https://nmts.com.br) 
 > - [Dead Pirate Studios](https://deadpiratestudios.com)
 > - [Diversão Educativa](https://diversaoeducativa.com.br)
+> - [RAWR!!! Pages](https://rawr.page)
 
 > ## Algumas redes sociais que participo
 > - [Instagram](https://www.instagram.com/skedarcorp/)

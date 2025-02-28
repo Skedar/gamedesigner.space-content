@@ -1,14 +1,19 @@
 # Projetos
 
-## Dead Pirate Studios
-Projetos desenvolvidos para a Dead Pirate Studios:
+## Diversão Educativa
+Portal gratuito para alfabetização tecnológica através de jogos educativos:
 
-- **Necromantis** - Jogo de estratégia com elementos de RPG
-- **Project Cyber** - Em desenvolvimento
+- **Em breve** - Jogos e portal atualmente em desenvolvimento!
 
-## Projetos Pessoais
+## RAWR!!! Pages
+Uma página única pessoal com direcionamento de e-mails totalmente gratuito.
 
-- **Game Designer Space** - Blog sobre game design e desenvolvimento de jogos
-- **Skedar Corp** - Portfolio e projetos pessoais
+- **Em breve** - Lançamento e liberação de cadastros em breve!
+
+## Ziphius 3D Quotes
+Sistema desenvolvido para realizar orçamentos automáticos de serviços em impressão 3D
+
+- **Em breve** - Venda do sistema e valores serão anunciados ainda este ano.
+
 
 ::github{repo="Skedar/gamedesigner.space-content"} 
