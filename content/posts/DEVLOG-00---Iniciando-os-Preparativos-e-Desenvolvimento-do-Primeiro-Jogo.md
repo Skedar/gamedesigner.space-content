@@ -13,4 +13,6 @@ _template: default
 
 Bom, esta é a minha primeira publicação de devlog então ainda preciso desenvolver uma "formatação" para os estilos das postagens, portanto isso é algo que irá vir com o tempo e necessidade de organização. Agora irei apenas focar em transmitir o conhecimento e aprendizado da maneira mais clara possível e tentar ao máximo não deixar nada de fora desta documentação.
 
+ffff
+
 ###
