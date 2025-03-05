@@ -109,18 +109,6 @@ ajuda@diversaoeducativa.com.br
 doacao@diversaoeducativa.com.br (Chave PIX)
 
 
-
-## 🎯 MVP (Mínimo Produto Viável)
-Aqui está nosso mapa do tesouro inicial:
-
-| Prioridade | Item                  | Status       |
-|------------|-----------------------|--------------|
-| ✅          | Nome do Projeto       | Concluído    |
-| 🔧          | Desenvolvimento do CMS| Em andamento |
-| 🎨          | Criação da Logo       | Pendente     |
-| 💰          | Modelo de Monetização | Em estudo    |
-
-
 ### 🤝 Como Ajudar Hoje?
 - 💻 Desenvolvedores: Contribua com jogos/código
 - 🎨 Designers: Ajude na identidade visual
